@@ -2,25 +2,30 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .App {
-  margin: 7vw;
-  padding: 3vw;
+  margin: 4vw;
   background-color: cornsilk;
 }
 .title {
   text-align: center;
   padding: 1rem;
+  font-family: 'Satisfy', cursive;
 }
 .result {
   text-align: center;
+  margin: 1rem;
+  font-size: 2rem;
 }
 .btn {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 2vw;
   border: none;
+  margin: 1rem;
+  font-size: 1rem;
 }
 .btn:hover {
   opacity: 0.8;
@@ -29,7 +34,9 @@
   background-color: rgb(72, 193, 168);
   color: rgb(255, 255, 255);
 }
-
+.form-group {
+  margin: 1rem;
+}
 .form-group label {
   width: 100vw;
   margin-bottom: 0.5vw;

@@ -38,7 +38,7 @@ function App() {
             />
           </div>
         </div>
-        <div>
+        <div className='form-group'>
           <select onChange={handleChange} required name='keyword'>
             <option value=''>SELECT</option>
             <option value='LOVES'>LOVES</option>
@@ -65,10 +65,12 @@ function App() {
           </button>
         </div>
       </form>
-      <div className='result'>
-        <p>{keyword}</p>
-        <h5>{result}</h5>
-      </div>
+      {result !== 0 && (
+        <div className='result'>
+          <p className='keyword'>{keyword}</p>
+          <h5 className='result-value'>{result}</h5>
+        </div>
+      )}
     </div>
   );
 }
